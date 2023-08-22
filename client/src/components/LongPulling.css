@@ -1,0 +1,43 @@
+.long-pulling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.long-pulling-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #000fff;
+    padding: 10px;
+}
+
+.long-pulling-form input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.long-pulling-form button {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.long-pulling-messages {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.long-pulling-messages div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
