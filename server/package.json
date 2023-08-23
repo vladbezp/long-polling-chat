@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon longPulling.js"
+    "start longpull": "nodemon longPulling.js",
+    "start eventsource": "nodemon eventSource.js"
   },
   "keywords": [],
   "author": "",

@@ -1,11 +1,11 @@
-.long-pulling {
+.real-time-chat {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.long-pulling-form {
+.real-time-chat__form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,14 +14,14 @@
     padding: 10px;
 }
 
-.long-pulling-form input {
+.real-time-chat__form input {
     padding: 5px;
     margin-right: 10px;
     border-radius: 15px;
     border: 1px solid #ccc;
 }
 
-.long-pulling-form button {
+.real-time-chat__form button {
     padding: 5px 10px;
     outline: none;
     border: 1px solid #ccc;
@@ -30,14 +30,14 @@
     cursor: pointer;
 }
 
-.long-pulling-messages {
+.real-time-chat__messages {
     border: 1px solid #ccc;
     padding: 10px;
     max-height: 300px;
     overflow-y: auto;
 }
 
-.long-pulling-messages div {
+.real-time-chat__messages div {
     padding: 5px;
     border-bottom: 1px solid #ddd;
 }
