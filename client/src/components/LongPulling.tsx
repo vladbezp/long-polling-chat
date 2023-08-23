@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import axios from "axios";
-import './LongPulling.css';
+import './styles.css';
 
 interface Message {
     id: number;
@@ -40,13 +40,14 @@ const LongPulling = () => {
     }, [subscribe]);
 
     return (
-        <div className="long-pulling">
+        <div className="real-time-chat">
             <div>
-                <div className="long-pulling-form">
+                <h1>Long Pulling</h1>
+                <div className="real-time-chat__form">
                     <input value={value} onChange={e => setValue(e.target.value)} type="text" id="input"/>
                     <button onClick={sendMessage}>Send</button>
                 </div>
-                <div className="long-pulling-messages">
+                <div className="real-time-chat__messages">
                     {messages.map(message =>
                         <div key={message.id}>{message.message}</div>
                     )}
